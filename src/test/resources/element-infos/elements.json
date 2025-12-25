@@ -1,0 +1,64 @@
+[
+ {
+  "key": "btn_CerezKabul",
+  "value": "#onetrust-accept-btn-handler",
+   "type": "css"
+ },
+ {
+  "key": "btn_GirisYapHeader",
+  "value": "[data-test-id='account']",
+   "type": "css"
+ },
+  {
+    "key": "lnk_DropdownGirisYap",
+    "value": "#login",
+    "type": "css"
+  },
+  {
+    "key": "txt_Email",
+    "value": "#txtUserName",
+    "type": "css"
+  },
+  {
+    "key": "txt_Sifre",
+    "value": "#txtPassword",
+    "type": "css"
+  },
+  {
+    "key": "btn_LoginSubmit",
+    "value": "#btnLogin",
+    "type": "css"
+  },
+  {
+    "key": "lnk_CikisYap",
+    "value": "//a[normalize-space()='Çıkış Yap']",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_Search",
+    "value": "[data-test-id='search-bar-input']",
+    "type": "css"
+  },
+  {
+    "key": "lst_ProductCards",
+    "value": "div[class*='productCard-module_productCardRoot']",
+    "type": "css"
+  },
+  {
+    "key": "btn_AddToCart",
+    "value": "button[data-test-id='addToCart']",
+    "type": "css"
+  },
+  {
+    "key": "btn_SepeteGit",
+    "value": "//button[normalize-space()='Sepete git']",
+    "type": "xpath"
+  },
+  {
+    "key": "btn_RemoveSingleItem",
+    "value": "//a[@aria-label='Sepetten çıkar' or @aria-label='Sepetten Çıkar']",
+    "type": "xpath"
+  }
+
+
+]

@@ -1,0 +1,42 @@
+# Hepsiburada ana sayfası açılır
+* URL "HepsiburadaUrl" adresine gidilir
+
+# Çerez bildirimi varsa kabul edilir
+* Element "btn_CerezKabul" 10 saniye içinde görünürse tıklanır
+* Element "btn_GirisYapHeader" görünür olana kadar beklenir
+
+
+# Kullanıcı hesabı ile giriş yapılır
+* Element "btn_GirisYapHeader" üzerine gelinir
+* Element "lnk_DropdownGirisYap" görünür olana kadar beklenir
+* Element "lnk_DropdownGirisYap" insan gibi tıklanır
+
+* Element "txt_Email" alanına "LoginEmail" insan gibi yazılır
+* Element "txt_Sifre" alanına "LoginSifre" insan gibi yazılır
+* Element "btn_LoginSubmit" insan gibi tıklanır
+
+# login başarılı mı (Çıkış Yap görünmeli)
+* Element "btn_GirisYapHeader" üzerinde 3 saniye durulur ve login doğrulanır
+* Element "lnk_CikisYap" görünür olana kadar beklenir
+
+# Ürün aranır
+* Fare arama alanına götürülür ve tıklanır
+* Element "txt_Search" alanına "SearchText" insan gibi yazılır
+* Enter tusuna basilir
+
+# Ürün seçilir
+* Ürün listesinde "TargetRow" satırın "TargetCol" ürününe tıklanır
+
+# Ürün sepete eklenir
+* Element "btn_AddToCart" görünür olana kadar beklenir
+* Element "btn_AddToCart" insan gibi tıklanır
+* "WaitAfterAddToCart" saniye beklenir
+
+# Sepete gidilir
+* Element "btn_SepeteGit" görünür olana kadar beklenir
+* Element "btn_SepeteGit" insan gibi tıklanır
+
+# Sepette ürün olduğu doğrulanır (Ürün sepetten çıkarılır)
+* Element "btn_RemoveSingleItem" görünür olana kadar beklenir
+* Element "btn_RemoveSingleItem" insan gibi tıklanır
+
